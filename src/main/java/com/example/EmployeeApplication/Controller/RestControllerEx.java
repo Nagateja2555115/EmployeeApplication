@@ -10,7 +10,7 @@ public class RestControllerEx {
     @GetMapping("/")
     public String get()
     {
-        System.out.println("Nagateja");
+        System.out.println("main branch");
         return "hello world";
     }
 }
